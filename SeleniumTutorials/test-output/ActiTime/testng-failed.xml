@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ActiTime]">
+  <parameter name="browser" value="chrome"/>
+  <test name="VerifyLink(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.application.test.DownloadReportTest">
+        <methods>
+          <include name="launchApplication"/>
+          <include name="testDownloadReport"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.application.test.DownloadReportTest -->
+    </classes>
+  </test> <!-- VerifyLink(failed) -->
+</suite> <!-- Failed suite [ActiTime] -->

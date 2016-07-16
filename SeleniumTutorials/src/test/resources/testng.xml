@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ActiTime" >
+	<parameter name="browser" value="chrome" />	
+	<test name="LoginLogout">		
+		<classes>
+			<class name="com.application.test.LoginLogoutTest">
+				<methods>
+					<include name="testLoginLogout" />					
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="VerifyLink">		
+		<classes>		
+			<class name="com.application.test.VerifyWebsiteLinkTest">
+				<methods>					
+					<include name="testVerifyWebsiteLink"/>
+				</methods>
+			</class>
+			
+			<class name="com.application.test.DownloadReportTest">
+				<methods>					
+					<include name="testDownloadReport"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite> <!-- Suite -->

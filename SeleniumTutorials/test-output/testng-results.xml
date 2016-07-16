@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="ActiTime" duration-ms="229402" started-at="2016-07-09T14:35:36Z" finished-at="2016-07-09T14:39:26Z">
+    <groups>
+    </groups>
+    <test name="VerifyLink" duration-ms="229402" started-at="2016-07-09T14:35:36Z" finished-at="2016-07-09T14:39:26Z">
+      <class name="com.application.test.DownloadReportTest">
+        <test-method status="PASS" signature="launchApplication(java.lang.String)[pri:0, instance:com.application.test.DownloadReportTest@1082e88]" name="launchApplication" is-config="true" duration-ms="29831" started-at="2016-07-09T20:05:36Z" finished-at="2016-07-09T20:06:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="testDownloadReport()[pri:0, instance:com.application.test.DownloadReportTest@1082e88]" name="testDownloadReport" duration-ms="197076" started-at="2016-07-09T20:06:06Z" finished-at="2016-07-09T20:09:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDownloadReport -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.application.test.DownloadReportTest@1082e88]" name="quit" is-config="true" duration-ms="2441" started-at="2016-07-09T20:09:23Z" finished-at="2016-07-09T20:09:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.application.test.DownloadReportTest -->
+    </test> <!-- VerifyLink -->
+  </suite> <!-- ActiTime -->
+</testng-results>
